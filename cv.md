@@ -46,3 +46,7 @@ console.log(string_check("thon"));
     - 2018–2020 Maths teacher. 
 - **Mega Matematical Center**
     - 2020–Now Maths teacher. 
+
+## Languages
+- Uzbek native
+- English B1
