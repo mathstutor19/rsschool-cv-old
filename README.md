@@ -1,1 +1,1 @@
-https://github.com/mathstutor19.github.io/rsschool-cv/
+https://mathstutor19.github.io/rsschool-cv/

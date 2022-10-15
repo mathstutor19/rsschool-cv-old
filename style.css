@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root {
   --bg-light: #f9f5d7;
   --bg-bold: #ebdbb2;
@@ -9,9 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: "Roboto Mono";
-    font-style: normal;
+body {
+  font-family: "Roboto Mono";
+  font-style: normal;
 }
 .container {
   width: 80%;
@@ -25,11 +25,11 @@ a {
 section {
   padding: 80px 0px;
 }
-section:nth-child(even){
-    background-color: var(--bg-light);
+section:nth-child(even) {
+  background-color: var(--bg-light);
 }
-section:nth-child(odd){
-    background-color: var(--bg-bold);
+section:nth-child(odd) {
+  background-color: var(--bg-bold);
 }
 h2 {
   font-weight: 700;
@@ -81,45 +81,44 @@ li {
   padding-bottom: 100px;
 }
 
-
 /* Code style start  */
 
-.code__pre{
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
+.code__pre {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
 }
 /* projects style start  */
 
-.project__img{
-    width: 30%;
-    height: 200px;
-    transition: all .3s ease-in-out;
+.project__img {
+  width: 30%;
+  height: 200px;
+  transition: all 0.3s ease-in-out;
 }
-.project__img:hover{
-    transform: scale(1.1);
+.project__img:hover {
+  transform: scale(1.1);
 }
 /* footer style start  */
-.footer{
-    text-align: center;
-    padding: 20px;
+.footer {
+  text-align: center;
+  padding: 20px;
 }
-.footer__logo{
-    width: 40px;
-    height: 40px;
+.footer__logo {
+  width: 40px;
+  height: 40px;
 }
-@media screen and (max-width:992px) {
-    .header__title {
-        margin-top: 80px;
-        font-size: 60px;
-        line-height: 60px;
-      } 
-      .header__text {
-        font-size: 38px;
-        line-height: 53px;
-      }
-      .code__pre{
-        font-size: 15px;
-        line-height: 15px;
-    }
+@media screen and (max-width: 992px) {
+  .header__title {
+    margin-top: 80px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .header__text {
+    font-size: 38px;
+    line-height: 53px;
+  }
+  .code__pre {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
